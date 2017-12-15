@@ -1,6 +1,9 @@
 {
   "name": "nodemongoapp",
   "version": "0.0.0",
+  "engines": {
+    "node": "6.11.3"
+  },
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"

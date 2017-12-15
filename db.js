@@ -6,5 +6,5 @@ var env = process.env.NODE_ENV || "development",
 // }
 
 module.exports = {
-	'url': 'mongodb://Vishal75j:Vishal75Mlab@ds059207.mlab.com:59207/ems_database'
+	'url': process.env.MONGODB_URI || 'mongodb://Vishal75j:Vishal75Mlab@ds059207.mlab.com:59207/ems_database'
 }
