@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h4.text-center.text-uppercase=title
+  .row
+    .col-sm-8.col-sm-offset-2
+      table.table
+        thead
+          th  Employee Name
+          th  Emp ID
+        tbody
+          each employee in employees
+            tr
+              td
+                a(href=employee.url)
+                  span=employee.name
+              td=employee.empId

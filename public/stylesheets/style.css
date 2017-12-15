@@ -1,0 +1,87 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.home-anchor {
+  margin-top: 26px;
+  font-size: 16px;
+  text-align: center
+}
+
+.home-anchor a {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar-nav {
+  margin-top: 100px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  margin: 10px 0 20px 0;
+  color: #956b6b;
+}
+
+form,
+table {
+  margin: 40px;
+}
+
+input.form-control {
+  margin: 10px 0;
+  border-radius: 0;
+}
+
+button{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  height: 30px;
+}
+
+select {
+  height: 30px;
+  width: 100%;
+  margin: 6px 0;
+}
+
+label {
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+table a {
+  color: #337ab7;
+}
+
+h4 {
+  margin-top: 24px;
+}
+
+.introduction {
+  margin-top: 40px;
+}
+
+ul.errors{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: red;
+  text-align: center;
+}
+
+ul.errors li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h4.text-center.text-uppercase=title
+  .row
+    .col-sm-8.col-sm-offset-2.emp-details
+        table.table
+            thead
+            th  Name
+            th  ID
+            th  Designation
+            th  Reporting Manager
+            th  Account
+            tbody
+                tr
+                    td=employeeDetails.name
+                    td=employeeDetails.empId
+                    td=employeeDetails.designation
+                    td=employeeDetails.reportingManager
+                    td=employeeDetails.accountName.accountName

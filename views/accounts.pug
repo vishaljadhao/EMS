@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h4.text-center.text-uppercase=title
+  .row
+    .col-sm-8.col-sm-offset-2
+      table.table
+        thead
+          th  Account Name
+          th Account Head
+        tbody
+          each account in accounts
+            tr
+              td=account.accountName
+              td=account.accountHead

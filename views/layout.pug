@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/javascripts/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div.container-fluid
+      .row
+        .col-sm-2.left-sec
+          block sidebar
+            div.home-anchor
+              a(href="/") EMS
+            ul.sidebar-nav
+              li
+                a(href="/api/account/create") New Account
+              li
+                a(href="/api/employee/create") New Employee
+              li
+                hr
+              li
+                a(href="/api/accounts") All Accounts
+              li
+                a(href="/api/employees") All Employees     
+        .col-sm-10.right-sec
+          block content
+
+    script(src='/javascripts/jquery/dist/jquery.min.js')
+    script(src='/javascripts/bootstrap/dist/js/bootstrap.min.js')
